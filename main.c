@@ -6,7 +6,7 @@
 /*   By: gpeyre <gpeyre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/29 10:56:39 by gpeyre            #+#    #+#             */
-/*   Updated: 2023/11/30 10:29:58 by gpeyre           ###   ########.fr       */
+/*   Updated: 2023/12/04 16:49:09 by gpeyre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,10 @@ int	main(int argc, char **argv)
 		return (1);
 	}
 	if (!is_sortable(tab_a))
+	{
+		ft_listclear(&tab_a);
 		return (1);
+	}
 	ft_sort(&tab_a);
 	ft_listclear(&tab_a);
 	return (0);
