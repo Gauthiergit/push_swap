@@ -1,0 +1,1 @@
+This project requires sorting data on a stack with a limited set of instructions, in as few moves as possible. To succeed, students must work with different sorting algorithms (such as pivot, insertion, and selection sorts) and choose the most appropriate solution for optimized data sorting.
